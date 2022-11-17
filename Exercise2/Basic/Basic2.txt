@@ -1,0 +1,10 @@
+
+
+
+PRO:    -simple solution for coloring large and simple objects
+        -... there is no second pro argument... especially after scanlines were introduced because they make flood fill obsolete...
+
+CON:    -This algorithm is slow and extra computation is required as we are visiting each pixel more than one time 
+		-Due to the checking of only the four direct neighbours, certain complex shapes can not be filled using this method
+        -Recursion takes up more processing power than neccesary to fill any given area (not as relevant on powerful hardware, but still... it's just not optimal)
+        
