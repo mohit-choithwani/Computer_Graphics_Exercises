@@ -1,0 +1,7 @@
+ In flat shading, the visible specular highlight in the middle appears on the entire polygon. Hence,
+ the result is single flat color for every polygon.
+ In Gouraud shading, the visible specular highlight in the middle appears on the vertex. and interpolates them
+ over a polygon.
+ 
+ In Phong shading, you get smooth specular highlights because it interpolates the lighting parameters
+ across the polygon and computes the lighting per fragment, not per vertex 
